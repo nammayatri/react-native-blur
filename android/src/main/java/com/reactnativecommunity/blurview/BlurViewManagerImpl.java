@@ -3,8 +3,6 @@ package com.reactnativecommunity.blurview;
 import android.view.View;
 import com.facebook.react.uimanager.ThemedReactContext;
 
-import eightbitlab.com.blurview.BlurView;
-
 import java.util.Objects;
 import javax.annotation.Nonnull;
 

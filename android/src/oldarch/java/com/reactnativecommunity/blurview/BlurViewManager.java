@@ -7,7 +7,6 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 
-import eightbitlab.com.blurview.BlurView;
 
 class BlurViewManager extends ViewGroupManager<BlurView> {
 
