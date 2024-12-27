@@ -5,7 +5,7 @@ import type { View } from 'react-native'
 import type { BlurViewProps as BlurViewPropsIOS } from './components/BlurView.ios';
 import type { VibrancyViewProps as VibrancyViewPropsIOS } from './components/VibrancyView.ios';
 
-type BlurViewProps = BlurViewPropsIOS | BlurViewPropsAndroid;
+type BlurViewProps = BlurViewPropsIOS;
 type VibrancyViewProps = VibrancyViewPropsIOS;
 
 const BlurView = BlurViewUntyped as React.ForwardRefExoticComponent<BlurViewProps & React.RefAttributes<View>>
