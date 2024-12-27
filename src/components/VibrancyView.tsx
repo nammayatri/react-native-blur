@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import { StyleSheet, ViewProps, ViewStyle } from 'react-native';
 import NativeVibrancyView from '../fabric/VibrancyViewNativeComponent';
-import type { BlurViewProps } from './BlurView.ios';
+import type { BlurViewProps } from './BlurView';
 
 export type VibrancyViewProps = ViewProps & {
   blurType?: BlurViewProps['blurType'];

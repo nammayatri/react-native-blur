@@ -1,9 +1,9 @@
-import BlurViewUntyped from './components/BlurView.ios';
-import VibrancyViewUntyped from './components/VibrancyView.ios';
+import BlurViewUntyped from './components/BlurView';
+import VibrancyViewUntyped from './components/VibrancyView';
 import type { View } from 'react-native'
 
-import type { BlurViewProps as BlurViewPropsIOS } from './components/BlurView.ios';
-import type { VibrancyViewProps as VibrancyViewPropsIOS } from './components/VibrancyView.ios';
+import type { BlurViewProps as BlurViewPropsIOS } from './components/BlurView';
+import type { VibrancyViewProps as VibrancyViewPropsIOS } from './components/VibrancyView';
 
 type BlurViewProps = BlurViewPropsIOS;
 type VibrancyViewProps = VibrancyViewPropsIOS;
